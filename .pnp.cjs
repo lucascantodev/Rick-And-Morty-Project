@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["bootstrap", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:5.2.3"],\
             ["next", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:13.0.6"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:18.2.0"]\
@@ -176,11 +177,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["art-gallery-project", "workspace:."],\
+            ["bootstrap", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:5.2.3"],\
             ["next", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:13.0.6"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:18.2.0"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["bootstrap", [\
+        ["npm:5.2.3", {\
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.2.3-7458283a23-0211805dec.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.2.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:5.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-17d57d0e75/0/cache/bootstrap-npm-5.2.3-7458283a23-0211805dec.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:6d4f2b76884db835e920dde10a079321bf0632b6f4a442ad278949525a4a55efe6c125dc863118eb33aed8f2df2152f988e956e7517b00198c1bb7b1254cd1ec#npm:5.2.3"],\
+            ["@popperjs/core", null],\
+            ["@types/popperjs__core", null]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["caniuse-lite", [\
