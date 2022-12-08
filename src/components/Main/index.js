@@ -10,6 +10,7 @@ const Main = () => {
                       <div class="card-body p-4">
                           <div class="text-center">
                               <h5 class="fw-bolder">Fancy Product</h5>
+                              $40.00 - $80.00
                           </div>
                       </div>
                       <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -23,6 +24,7 @@ const Main = () => {
                       <div class="card-body p-4">
                           <div class="text-center">
                               <h5 class="fw-bolder">Special Item</h5>
+                              $40.00 - $80.00
                           </div>
                       </div>
                       <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -36,6 +38,7 @@ const Main = () => {
                       <div class="card-body p-4">
                           <div class="text-center">
                               <h5 class="fw-bolder">Sale Item</h5>
+                              $40.00 - $80.00
                           </div>
                       </div>
                       <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
@@ -49,6 +52,7 @@ const Main = () => {
                       <div class="card-body p-4">
                           <div class="text-center">
                               <h5 class="fw-bolder">Popular Item</h5>
+                              $40.00 - $80.00
                           </div>
                       </div>
                       <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
