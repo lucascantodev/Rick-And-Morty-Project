@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Footer from '../src/components/Footer'
-import Navbar from '../src/components/Navbar'
-import Header from '../src/components/Header'
-import CharactersList from '../src/components/CharactersList'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import Header from '../components/Header'
+import CharactersList from '../components/CharactersList'
 
 export default function Home() {
   return (
