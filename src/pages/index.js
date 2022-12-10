@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header/>
       <main>
-        <section className="py-5">
+        <section className="py-5 bg-dark">
           <CharactersList />
         </section>
       </main>

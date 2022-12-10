@@ -7,11 +7,11 @@ const CharactersList = () => {
   const { data, isError, isLoading } = useFetch("/character")
 
   if (isLoading) {
-      return <Spinner />
+    return <Spinner />
   }
 
   if (isError) {
-      return <Error />
+    return <Error />
   }
 
   return (

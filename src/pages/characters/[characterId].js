@@ -7,9 +7,7 @@ export default function Character() {
 
   return (
     <>
-      <a href="/">
-        Voltar...
-      </a>
+      
     </>
   )
 }

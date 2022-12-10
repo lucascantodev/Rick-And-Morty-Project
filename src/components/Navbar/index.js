@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-white bg-white">
+    <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand">Rick and Morty Project</a>
         <form className="d-flex" role="search">
