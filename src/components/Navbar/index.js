@@ -1,15 +1,17 @@
+import SearchForm from "../SearchForm"
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-dark bg-dark">
-      <div className="container-fluid">
-        <a className="navbar-brand">Rick and Morty Project</a>
-        <form className="d-flex" role="search">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button className="btn btn-secondary my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Rick and Morty Project</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a className="nav-link active text-white" href="/">Home</a>
+            <a className="nav-link text-white" href="/table">Table</a>
+          </div>
+        </div>
+        <SearchForm />
       </div>
     </nav>
   );
