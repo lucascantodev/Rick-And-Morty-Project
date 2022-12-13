@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../../public/style.css'
-import MainContainer from '../components/MainContainer.js'
+import MainContainer from '../components/MainContainer'
 
 function MyApp({ Component, pageProps }) {
   return (

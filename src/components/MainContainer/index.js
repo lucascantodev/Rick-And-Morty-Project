@@ -17,4 +17,4 @@ const MainContainer = ({ children }) => {
   );
 };
 
-export default MainContainer;
+export default MainContainer
