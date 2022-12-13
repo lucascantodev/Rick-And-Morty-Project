@@ -1,3 +1,4 @@
+import Button from '../Button'
 
 const CardComponent = ({
   id,
@@ -18,14 +19,14 @@ const CardComponent = ({
         </div>
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div className="text-center text-white">
-            <a className="btn btn-outline-light mt-auto" href={`/characters/${id}`}>
+            <Button link={`/characters/${id}`}>
               View more
-            </a>
+            </Button>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CardComponent;
+export default CardComponent
