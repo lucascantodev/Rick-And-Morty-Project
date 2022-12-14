@@ -1,4 +1,4 @@
-import Button from '../Button'
+import Link from 'next/link'
 
 const CardComponent = ({
   id,
@@ -19,9 +19,12 @@ const CardComponent = ({
         </div>
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div className="text-center text-white">
-            <Button link={`/characters/${id}`}>
+            <Link 
+              href={`/characters/${id}`}
+              className="btn btn-outline-light mt-auto"
+            >
               View more
-            </Button>
+            </Link>
           </div>
         </div>
       </div>
