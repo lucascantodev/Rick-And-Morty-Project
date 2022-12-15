@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand text-white" href="#">Rick and Morty Project</a>
+        <Link className="navbar-brand text-white" href="/">Rick and Morty Project</Link>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link className="nav-link active text-white" href="/">Home</Link>
