@@ -1,3 +1,4 @@
+import TopScroller from "../TopScroller"
 
 const Footer = () => {
   return (
@@ -5,6 +6,7 @@ const Footer = () => {
       <div className="container">
         <p className="m-0 text-center text-white">Copyright &copy; Rick and Morty Project 2022</p>
       </div>
+      <TopScroller />
     </footer>
   )
 }
