@@ -1,4 +1,6 @@
 import { useFetchInfinite } from '../../utils/hook'
+import TableGenerator from '../TableGenerator'
+import InfiniteScroll from '../InfiniteScroll'
 import Error from '../Error'
 
 const CharactersTable = () => {
@@ -8,11 +10,40 @@ const CharactersTable = () => {
     return <Error />
   }
 
-  return (
-    <div className="container px-4 px-lg-5 mt-5">
-      
-    </div>
-  );
-};
+  const tableHeaders = [
+    "Id",
+    "Name",
+    "Status",
+    "Species",
+    "Gender",
+    "Origin",
+    "Location",
+  ]
 
-export default CharactersTable;
+  const dataObjects = [
+    "id",
+    "name",
+    "status",
+    "species",
+    "gender",
+    "origin['name']",
+    "Location['name']",
+  ]
+
+  return (
+    <div className="table-responsive px-4 px-lg-5 mt-5">
+      <InfiniteScroll
+        size={size}
+        next={setSize}
+      >
+        <TableGenerator 
+          data={data}
+          tableHeaders={tableHeaders}
+          dataObjects={dataObjects}
+        />
+      </InfiniteScroll>
+    </div>
+  )
+}
+
+export default CharactersTable
