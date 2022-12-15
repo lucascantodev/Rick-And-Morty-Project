@@ -14,7 +14,7 @@ const MainContainer = ({ children }) => {
         {children}
       <Footer />
     </>
-  );
-};
+  )
+}
 
 export default MainContainer

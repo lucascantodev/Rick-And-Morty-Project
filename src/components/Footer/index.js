@@ -6,7 +6,7 @@ const Footer = () => {
         <p className="m-0 text-center text-white">Copyright &copy; Rick and Morty Project 2022</p>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

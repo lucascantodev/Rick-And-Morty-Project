@@ -5,11 +5,9 @@ export default function Home() {
   return (
     <>
       <Header/>
-      <main>
-        <section className="py-5 bg-dark">
-          <CharactersList />
-        </section>
-      </main>
+      <section className="py-5 bg-dark">
+        <CharactersList />
+      </section>
     </>
   )
 }

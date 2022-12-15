@@ -6,7 +6,7 @@ const Spinner = () => {
         <span className="visually-hidden">Loading...</span>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Spinner;
+export default Spinner

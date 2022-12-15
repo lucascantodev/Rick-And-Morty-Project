@@ -34,7 +34,7 @@ const CharactersList = () => {
         </InfiniteScroll>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CharactersList;
+export default CharactersList

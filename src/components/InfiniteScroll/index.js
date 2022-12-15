@@ -22,7 +22,7 @@ const InfiniteScroll = ({
       {children}
       <div ref={ref}></div>
     </>
-  );
-};
+  )
+}
 
 export default InfiniteScroll

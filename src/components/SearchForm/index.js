@@ -7,7 +7,7 @@ const SearchForm = () => {
         Search
       </button>
     </form>
-  );
-};
+  )
+}
     
-export default SearchForm;
+export default SearchForm

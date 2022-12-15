@@ -1,10 +1,10 @@
 
 const Error = () => {
   return (
-    <div class="alert alert-danger" role="alert">
+    <div className="alert alert-danger" role="alert">
       An error has occurred!
     </div>
-  );
-};
+  )
+}
 
-export default Error;
+export default Error
