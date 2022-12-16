@@ -8,10 +8,10 @@ export default function Character(data) {
 
   return (
     <>
-      <div className="container d-flex justify-content-center mb-5 mt-5">
+      <div className="container d-flex justify-content-center pb-5 pt-5 ">
         <div className="d-flex flex-column gap-2">
           <h1 className="text-center">Rick Sanchez</h1>
-          <img className="img-fluid" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="" />
+          <img className="img-fluid shadow-sm p-3 mb-5 bg-body rounded" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="" />
         
         {/* {(() => {
             if (status === "Dead") {
