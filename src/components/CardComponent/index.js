@@ -20,7 +20,7 @@ const CardComponent = ({
         <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
           <div className="text-center text-white">
             <Link 
-              href={`/characters/${id}`}
+              href={`/character/${id}`}
               className="btn btn-outline-light mt-auto"
             >
               View more

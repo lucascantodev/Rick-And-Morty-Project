@@ -6,9 +6,9 @@ import { BASE_URL } from './request'
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 export function useFetch(endpoint) {
-  const { data, error } = useSWR(`${BASE_URL}${endpoint}`, fetcher)
+  const { data, error, isLoading } = useSWR(`${BASE_URL}${endpoint}`, fetcher)
 
-  return { data, error }
+  return { data, error, isLoading }
 }
 
 export function useFetchInfinite(endpoint) {

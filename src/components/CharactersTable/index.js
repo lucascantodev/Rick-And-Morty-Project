@@ -15,9 +15,7 @@ const CharactersTable = () => {
     "Name",
     "Status",
     "Species",
-    "Gender",
-    "Origin",
-    "Location",
+    "Gender"
   ]
 
   const dataObjects = [
@@ -25,9 +23,7 @@ const CharactersTable = () => {
     "name",
     "status",
     "species",
-    "gender",
-    "origin['name']",
-    "Location['name']",
+    "gender"
   ]
 
   return (
