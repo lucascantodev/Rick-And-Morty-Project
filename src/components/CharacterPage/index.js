@@ -14,7 +14,7 @@ const CharacterPage = ({characterId}) => {
   }
 
   return (
-    <div className="container d-flex justify-content-center mb-5 mt-5">
+    <div className="container d-flex justify-content-center pb-5 pt-4">
       <div className="d-flex flex-column gap-2">
         <h1 className="text-center">{data.name}</h1>
         <img className="img-fluid" src={data.image} alt={data.name} />
